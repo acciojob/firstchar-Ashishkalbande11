@@ -3,7 +3,8 @@ function firstChar(text) {
 	if(text.length == 0){
         return '';
     }
-    return text.trim(' ').text.charAt(0);
+    text = text.trim(' ');
+   return text[0];
 	
 }
 
